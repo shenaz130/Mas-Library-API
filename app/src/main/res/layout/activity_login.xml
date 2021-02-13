@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:alpha="0.8"
+    android:background="@mipmap/ic_launcher"
+    android:visibility="visible"
+    tools:context=".LoginActivity">
+
+
+    <LinearLayout
+        android:layout_width="468dp"
+        android:layout_height="415dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="#fffffc"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <EditText
+            android:id="@+id/etemail"
+            android:layout_width="242dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:fontFamily="monospace"
+            android:text="Enter your Email"
+            android:textAlignment="center"
+            android:textColor="#060000"
+            />
+
+        <TextView
+            android:id="@+id/tvemail"
+            android:layout_width="317dp"
+            android:layout_height="32dp"
+            android:layout_gravity="center"
+            android:fontFamily="monospace"
+            android:padding="25dp"
+            android:textAlignment="center"
+            android:textColor="#060000" />
+
+
+        <EditText
+            android:id="@+id/etpassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="monospace"
+            android:padding="25dp"
+            android:text="Enter your Password"
+            android:textAlignment="center"
+            android:textColor="#060000" />
+
+        <TextView
+            android:id="@+id/tvpassword"
+            android:layout_width="347dp"
+            android:layout_height="32dp"
+            android:layout_gravity="center"
+            android:fontFamily="monospace"
+            android:textAlignment="center"
+            android:textColor="#060000" />
+
+        <Button
+            android:id="@+id/btnsignin"
+            android:layout_width="147dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="monospace"
+            android:text="Sign In"
+            android:textColor="#060000" />
+
+        <EditText
+            android:id="@+id/etcnew"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="monospace"
+            android:padding="25dp"
+            android:text="create new "
+            android:textAlignment="center"
+            android:textColor="#060000" />
+
+        <EditText
+            android:id="@+id/etgoogle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="monospace"
+            android:text="Login with google "
+            android:textAlignment="center"
+            android:textColor="#060000" />
+
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/sign_in_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+
+
+</FrameLayout>
